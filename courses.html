@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Khóa Học - DevAcademy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-success" href="index.html">DevAcademy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Trang Chủ</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="courses.html">Khóa Học</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Đăng Ký Học</a></li>
+                    <li class="nav-item"><a class="nav-link" href="registrations.html">Danh Sách Lớp</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="card shadow-sm p-4 mb-4 bg-white rounded">
+            <h4 class="fw-bold mb-3 text-dark">Bộ Lọc Tìm Kiếm</h4>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Nhập tên khóa học cần tìm...">
+                </div>
+                <div class="col-md-3">
+                    <select id="categoryFilter" class="form-select">
+                        <option value="all">-- Tất cả danh mục --</option>
+                        <option value="Frontend">Frontend</option>
+                        <option value="Backend">Backend</option>
+                        <option value="Cơ bản">Cơ bản</option>
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <select id="levelFilter" class="form-select">
+                        <option value="all">-- Tất cả cấp độ --</option>
+                        <option value="Beginner">Beginner (Cơ bản)</option>
+                        <option value="Intermediate">Intermediate (Trung cấp)</option>
+                        <option value="Advanced">Advanced (Nâng cao)</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="fw-bold mb-4 text-success text-center text-md-start">Tất Cả Khóa Học</h3>
+        <div class="row g-4" id="courseContainer">
+            </div>
+    </div>
+
+    <div class="modal fade" id="courseDetailModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title fw-bold" id="modalTitle">Tên Khóa Học</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5 mb-3 mb-md-0">
+                            <img id="modalImage" src="" class="img-fluid rounded shadow-sm" alt="Ảnh khóa học">
+                        </div>
+                        <div class="col-md-7">
+                            <p><strong>Danh mục:</strong> <span id="modalCategory" class="badge bg-success"></span></p>
+                            <p><strong>Cấp độ:</strong> <span id="modalLevel" class="badge bg-primary"></span></p>
+                            <p><strong>Khai giảng:</strong> <span id="modalDate" class="text-muted"></span></p>
+                            <p><strong>Mô tả ngắn:</strong> <span id="modalDescription"></span></p>
+                            <hr>
+                            <p><strong>Nội dung chi tiết khóa học:</strong></p>
+                            <div id="modalDetail" class="text-secondary bg-light p-3 rounded border"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng lại</button>
+                    <a id="modalRegisterBtn" href="#" class="btn btn-success fw-bold">Đăng Ký Học Ngay</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-2 fw-bold">DevAcademy - Website Giới Thiệu Khóa Học Mini</p>
+            <p class="mb-2 small text-secondary">Sinh viên thực hiện: Lê Nhật Duy | MSSV: 24210501005 | Lớp: Lập trình Web</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
