@@ -27,7 +27,7 @@ Sản phẩm bài tập giữa kỳ môn **Lập trình Web Frontend** (HTML/CSS
 
 ## 📂 Cấu Trúc Thư Mục Dự Án
 ```text
-web-midterm-49012345-nguyenvanan/
+web-midterm-24210501005-LeNhatDuy/
 ├── index.html             # Trang chủ giới thiệu tổng quan hệ thống
 ├── courses.html           # Trang danh sách khóa học kèm bộ lọc, tìm kiếm & modal
 ├── register.html          # Trang form đăng ký thông tin học viên (có validation)
