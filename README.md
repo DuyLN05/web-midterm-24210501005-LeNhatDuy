@@ -1,29 +1,46 @@
 # Website Giới Thiệu Và Đăng Ký Khóa Học Lập Trình Mini
 
-Sản phẩm bài tập giữa kỳ môn **Lập trình Web Frontend** (HTML/CSS/JS/Bootstrap). Website được thiết kế hoàn toàn tĩnh, không sử dụng hệ quản trị cơ sở dữ liệu hay mã nguồn backend, đáp ứng đầy đủ các tiêu chí kỹ thuật và chức năng bắt buộc từ đề bài.
+## 1. Thông tin sinh viên
 
-## 📝 Thông Tin Sinh Viên
-- **Họ và tên:** Lê Nhật Duy
-- **Mã số sinh viên (MSSV):** 24210501005
-- **Lớp:** Lập trình Web
-- **Đơn vị:** Phân hiệu Cà Mau - Trường Đại học Bình Dương
-- **Giảng viên hướng dẫn:** ThS. Lê Thanh Thoại
+* **Họ tên:** Lê Nhật Duy
+* **MSSV:** 24210501005
+* **Lớp:** Lập trình Web
 
 ---
 
-## 🌐 Đường Link Dự Án
-- **Link Demo (GitHub Pages):** [Bấm vào đây để xem trực tuyến](https://duyln05.github.io/web-midterm-24210501005-LeNhatDuy/) 
+## 2. Mô tả dự án
+
+[cite_start]Website giới thiệu danh sách sự kiện/khóa học, cho phép người dùng xem chi tiết, tìm kiếm, lọc và đăng ký tham gia[cite: 314]. Dự án tuân thủ cấu trúc trang tĩnh (Frontend), tối ưu hóa trải nghiệm người dùng không tải lại trang dựa trên sự phối hợp giữa thiết kế Responsive và lưu trữ dữ liệu cục bộ.
 
 ---
 
-## 🛠️ Công Nghệ Sử Dụng
-- **Cấu trúc:** HTML5 chuẩn Semantic tags (`<nav>`, `<header>`, `<main>`, `<section>`, `<footer>`).
-- **Giao diện:** CSS3 thuần (Tự viết tùy biến hiệu ứng) kết hợp thư viện **Bootstrap 5.3.2** (Hệ thống lưới Grid System, Components, Utilities).
-- **Xử lý logic động:** JavaScript thuần (Vanilla JS), tương tác với cấu trúc cây DOM và lưu trữ dữ liệu thông qua ứng dụng `LocalStorage`.
-- **Triển khai:** GitHub Pages để public trang web tĩnh trực tuyến.
+## 3. Công nghệ sử dụng
+
+* [cite_start]HTML5, CSS3, Bootstrap 5 [cite: 315]
+* [cite_start]JavaScript, LocalStorage [cite: 315]
+* [cite_start]GitHub Pages [cite: 315]
 
 ---
 
+## 4. Chức năng chính
+
+* [cite_start]Hiển thị danh sách sự kiện/khóa học[cite: 315].
+* [cite_start]Tìm kiếm, lọc dữ liệu, xem chi tiết bằng modal[cite: 316].
+* [cite_start]Form đăng ký có validation[cite: 316].
+* [cite_start]Lưu và xóa danh sách đăng ký bằng LocalStorage[cite: 317].
+
+---
+
+## 5. Link demo
+
+* **GitHub Pages:** https://duyln05.github.io/web-midterm-24210501005-LeNhatDuy/
+* **GitHub Repo:** https://github.com/DuyLN05/web-midterm-24210501005-LeNhatDuy
+
+---
+
+## 6. Ảnh giao diện
+
+![Giao diện chính EventHub](assets/images/ảnh 10.jpg)
 ## 📂 Cấu Trúc Thư Mục Dự Án
 ```text
 web-midterm-24210501005-LeNhatDuy/
