@@ -40,7 +40,7 @@
 
 ## 6. Ảnh giao diện
 
-![Giao diện chính EventHub](assets/images/ảnh 10.jpg)
+![Giao diện chính EventHub](assets/images/ảnh%2010.png)
 ## 📂 Cấu Trúc Thư Mục Dự Án
 ```text
 web-midterm-24210501005-LeNhatDuy/
