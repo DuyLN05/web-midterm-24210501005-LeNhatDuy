@@ -12,8 +12,7 @@ Sản phẩm bài tập giữa kỳ môn **Lập trình Web Frontend** (HTML/CSS
 ---
 
 ## 🌐 Đường Link Dự Án
-- **Link Demo (GitHub Pages):** [Bấm vào đây để xem trực tuyến](https://nguyenvanan-github.github.io/web-midterm-49012345-nguyenvanan/) *(Lưu ý: Bạn hãy thay thế bằng link thực tế của bạn sau khi deploy)*
-- **Hạn nộp bài:** 12/06/2026
+- **Link Demo (GitHub Pages):** [Bấm vào đây để xem trực tuyến](https://duyln05.github.io/web-midterm-24210501005-LeNhatDuy/) 
 
 ---
 
